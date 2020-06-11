@@ -1,43 +1,48 @@
 # scroll-tigger
 
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<!--nav-section-start-->
+    <nav class="navbar navbar-expand-lg fixed-top header-scrolled">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<img class="img-fluid" src="images/logo.png" alt="" />
-		</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
+        <a class="logo" href="index.html">Delicious</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navcollapase"
+        >
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
+        <div class="collapse navbar-collapse" id="navcollapase">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link scroll-trigger active" href="#content">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scroll-trigger" href="#about">About Us</a>
+              <a class="nav-link scroll-trigger active" href="#hero">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-trigger" href="#services">Services</a>
+              <a class="nav-link scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link scroll-trigger" href="#menu">Menu</a></li>
+            <li class="nav-item">
+              <a class="nav-link scroll-trigger" href="#specials">Specials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link scroll-trigger" href="#events">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll-trigger" href="#testimonials">Testimonials</a>
+              <a class="nav-link scroll-trigger" href="#chefs">Chefs</a>
             </li>
-			<li class="nav-item">
-              <a class="nav-link scroll-trigger" href="#blog">Blog</a>
+            <li class="nav-item">
+              <a class="nav-link scroll-trigger" href="#gallery">Gallery</a>
             </li>
-			<li class="nav-item">
-              <a class="nav-link scroll-trigger" href="#contact">Contact Us</a>
+            <li class="nav-item"><a class="nav-link scroll-trigger" href="#contact">Contact</a></li>
+            <li class="nav-item text-center">
+              <a class="nav-link scroll-trigger book" href="#book-table">Book A table</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
+    <!--nav-section-end-->
+
     
     
     
